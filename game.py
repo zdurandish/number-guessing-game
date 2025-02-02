@@ -30,6 +30,5 @@ while not game_over and repeat > 0:
         game_over = True
         print(f"You got it! The random number was {random_number}. You win")
 
-    if repeat == 0:
-        game_over = True
-        print("You ran out of guesses, you lost!")
+if repeat == 0:
+    print("You ran out of guesses, you lost!")
